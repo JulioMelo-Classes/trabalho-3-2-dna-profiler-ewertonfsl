@@ -163,4 +163,20 @@ A saída deve ser exatamente como mostrada nas imagens (com cores e tudo!)
 
 **Translation to Pt-Br and Further Adaptation: Julio Melo, [julio@imd.ufrn.br](mailto:julio@imd.ufrn.br)**
 
+# Checkin 1
 
+1. Projete ao menos as 3 classes principais propostas para o programa. Não precisa implementar, apenas os .h são suficientes.
+- Vou considerar 60% uma vez que a classe Perfil não está completa.
+
+2. Implemente a classe responsável por ler e armazenar as informações do banco de dados de entrada.
+- Vou considerar, mas fica o comentário: acho que a classe "Dados" acabou fazendo coisa demais. A ideia é que essa classe guardasse apenas o banco de 
+dados e não a própria entrada de dna.
+
+3. Escreva o main instanciando a do item 2 mostrando que ela funciona para carregar e armazenar as informações.
+- Ok, vou considerar.
+
+4. Escreva parte da classe responsável pela interface com o usuário, de forma que o usuário consiga ao menos digitar a alguma palavra no loop principal, mostrando uma interface similar à interface sugerida na atividade 3.2.
+- Ok
+
+5. Use a classe implementada em 4 no main, para mostrar que ela funciona. Não precisa realizar qualquer busca no banco, se a entrada do usuário estiver sendo recebida e impressa no terminal já conta para esse checkin.
+- Ok
