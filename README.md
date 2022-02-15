@@ -18,7 +18,9 @@ Você deve executar o programa da seguinte forma:
 ```
 % ./dna_profiler -d <arquivo_dados> -s <arquivo_sequencia_dna>
 ```
-    Onde os argumentos são:
+Onde os argumentos são:
+
+```
         <arquivo_dados> O arquivo de banco de dados com perfis de DNA.
         <arquivo_sequencia_dna> O arquivo de sequência de DNA a ser analisado.
 ```
