@@ -1,0 +1,10 @@
+VALIDAÇÃO DE ARGUMENTOS
+./dna_profiler argumentos_faltando
+
+VALIDAÇÃO DE DIRETIVAS
+./dna_profiler -j ../data/data.csv -s ../data/sequence_bob.txt
+./dna_profiler -d ../data/data.csv -k ../data/sequence_bob.txt
+
+VALIDAÇÃO DE ARQUIVOS
+./dna_profiler -d data_inexistente.csv -s ../data/sequence_alice.txt
+./dna_profiler -d ../data/data.csv -s sequencia_inexistente.txt

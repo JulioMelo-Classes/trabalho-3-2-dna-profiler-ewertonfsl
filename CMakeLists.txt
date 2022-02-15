@@ -10,6 +10,5 @@ include_directories( include )
 add_executable( dna_profiler
                 src/main.cpp
                 src/Dados.cpp
-                src/InterfaceUsuario.cpp
-                src/Perfil.cpp )
+                src/InterfaceUsuario.cpp )
 # The end
